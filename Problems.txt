@@ -17,3 +17,8 @@ b) if (n-1) coins have k-1 heads, and Nth coin is head
 so
 
 P(n, k) = P(n-1, k) * (1 - p[n]) + P(n-1, k-1) * p[n]
+
+
+modify
+
+1
