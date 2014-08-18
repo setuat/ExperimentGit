@@ -23,6 +23,12 @@ it creates a git folder inside the project folder which is required by git
 18. ssh-keygen -t rsa -C "setuat@yahoo.co.in" (this generates a public and private key we need to add the public key to github.com to authenticate our remote machine)
 19. ssh -T git@github.com (It will ask you for password. This will test the generated keys)
 20. git remote add origin <ssh URL from git website> 
-21. git push origin master (this will add the local git repository to remote git repository)
+21. git push origin <branch name> (this will add the local git repository to remote git repository)
 22. git config --list
-
+23. git rm <file name> (this will remove the file from the repository)
+24. git rm --cached <file name> (this remove the file from the repo and not delete it from the local file system )
+25. git branch (this list all the branch for the repository)
+26. git branch <name> (this will create a new branch with name )
+27. git checkout <name> (switch to the other branch)
+28. git clone <ssh link> (this will download the remote repository)
+29. more to come
